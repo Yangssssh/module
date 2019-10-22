@@ -4,3 +4,8 @@ spring:
     url: jdbc:mysql://localhost:3306/jpa?useUnicode=true&characterEncoding=gbk&useJDBCCompliantTimezoneShift=true&serverTimezone=UTC
     username: root
     password: 1111
+  jpa:
+    properties:
+      hibernate:
+        show_sql: true
+        format_sql: trues
